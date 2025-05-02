@@ -1,6 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login  from "../../Model/Login/Index";
+import Login  from "../../Model/LoginPage/Index";
 import Registro from "../../Model/Registro/Index";
 import Veterinario from "../../Model/Veterinario/Index";
 import Admin from "../../Model/Admin/Index";
