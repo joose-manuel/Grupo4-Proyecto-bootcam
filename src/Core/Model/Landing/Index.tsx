@@ -1,12 +1,20 @@
-// import './StyleAdmin.css';
-// import './Admin';
-const Landing = () => { 
+
+import './LandingStyle.css';
+
+// import './Landing';
+const LandingPage = () => { 
     return (
-        <div className="landing">
-        <h1>Landing Page</h1>
-        <p>This is the landing page of the application.</p>
+        <div className='principal'>
+            <div className='Contenedor-fondo'>
+                
+
+
+
+
+            </div>
+           <img src="src/assets/Rectangle 7.jpg" className='fondo' alt="" />
         </div>
     );
     }
 
-export default Landing;
+export default LandingPage;
