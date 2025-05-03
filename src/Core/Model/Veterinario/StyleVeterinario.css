@@ -1,0 +1,21 @@
+.contenedor-pricipal{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    /* border: solid red; */
+
+
+}
+.ventana1{
+    width: 30%;
+    height: 100%;
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+}
+.ventana2{
+    width: 70%;
+    height: 100%;
+    border:  solid green;
+}

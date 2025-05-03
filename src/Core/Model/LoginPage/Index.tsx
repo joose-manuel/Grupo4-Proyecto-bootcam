@@ -20,7 +20,12 @@ export default function LoginPage() {
       return;
     }
 
-    console.log({ email, password, remember });
+    // Guardar los datos en el localStorage
+    const userData = { email, password, remember };
+    localStorage.setItem("user", JSON.stringify(userData));
+
+    console.log("Datos guardados en localStorage:", userData);
+    alert("Inicio de sesión exitoso. Datos guardados en localStorage.");
   };
 
   return (

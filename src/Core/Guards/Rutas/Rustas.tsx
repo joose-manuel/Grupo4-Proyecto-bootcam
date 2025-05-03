@@ -6,11 +6,12 @@ import Veterinario from "../../Model/Veterinario/Index";
 import Admin from "../../Model/Admin/Index";
 import Clientes from "../../Model/Client/Index";
 import Landing from "../../Model/Landing/Index";
-
+import { UserProvider } from "../UserContex";
 
 function Rustas() {
   return (
-    <Router>
+    <UserProvider>
+      <Router>
       <Routes>
         Ruta prinLoginl
         {/* Rutas de la aplicación */}
@@ -26,6 +27,8 @@ function Rustas() {
         <Route path="*" element={<h1>Página no encontrada</h1>} />
       </Routes>
     </Router>
+    </UserProvider>
+    
   );
 }
 
