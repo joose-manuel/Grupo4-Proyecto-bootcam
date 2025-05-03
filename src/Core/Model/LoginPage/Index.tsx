@@ -26,7 +26,7 @@ export default function LoginPage() {
   return (
     <div className="login-page">
       <div className="login-header">
-        <img src="/logo-gato.svg" alt="Logo" className="logo" />
+        <img src="src/assets/Vector 1.svg" alt="Logo" className="logo" />
         <h1>Peponé</h1>
         <p>HOTEL GATUNO</p>
       </div>

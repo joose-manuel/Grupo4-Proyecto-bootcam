@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./StyleRegistro.css";
-import logo from '../../../assets/logo.jpg';
+
 import { useNavigate } from 'react-router-dom';
 const Registro: React.FC = () => {
     const navigate = useNavigate();
@@ -22,8 +22,9 @@ const Registro: React.FC = () => {
   };
 
   return (
+        
     <div className="form-container">
-      <img src={logo} alt="Logo" className="logo" />
+      <img src="src/assets/Vector 1.svg" alt="Logo" className="logo" />
       <h2>Crear Cuenta</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -62,6 +63,7 @@ const Registro: React.FC = () => {
         <p>¿Ya tienes una cuenta? <a onClick={() => navigate('/')}>Inicia sesion</a></p>
       </form>
     </div>
+      
   );
 };
 

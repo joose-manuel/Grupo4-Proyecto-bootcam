@@ -2,5 +2,9 @@ body{
 
     margin: 0px;
     padding: 0px;
-    background-color: rgba(4, 22, 42, 1);
+    background-color: #021122 ;
+}
+:root{
+    background-color: #021122 ;
+
 }

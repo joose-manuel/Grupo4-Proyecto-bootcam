@@ -14,10 +14,211 @@
 }
 .Contenedor-fondo{
     position: absolute;
-    border: solid 1px;
-    color: rgb(0, 136, 255);
+    /* border: solid 1px; */
+    /* color: rgb(0, 136, 255); */
     width: 100%;
-    height: 50.7%;
+    height: 51.9%;
     z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.texto1{
+    width: 56%;
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+
+
+}
+.texto2{
+    width: 60%;
+    /* border: solid 1px red; */
+
+}
+.botones11{
+    display: flex;
+    /* border: solid 1px rgb(0, 255, 13); */
+    width: 100%;
+    height: 40%;
+
+}
+
+.botones2{
+    display: flex;
+    /* border: solid 1px rgb(0, 140, 255); */
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.botones1{
+    display: flex;
+    /* border: solid 1px rgb(0, 140, 255); */
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+
+
+.btn-registro{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background-color: rgba(253, 184, 19, 1);
+    border: none;
+    text-transform:bold;
+    font-size: 24px;
+
+
+}
+.btn-registro:hover{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background-color: rgb(235, 169, 17);
+    border: none;
+    text-transform:bold;
+    text-transform:bold;
+    font-size: 24px;
+}
+.btn-registro:active{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background-color: rgb(197, 142, 14);
+    border: none;
+    text-transform:bold;
+    text-transform:bold;
+    font-size: 24px;
+}
+
+.btn-login{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background: none;
+    border: solid 3px white;
+    color: white;
+    text-transform:bold;
+    text-transform:bold;
+    font-size: 24px;
+}
+.btn-login:hover{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background: none;
+    border: solid 3px rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
+    text-transform:bold;
+    font-size: 24px;
+}
+.btn-login:active{
+    width: 60%;
+    height: 27%;
+    border-radius: 16px;
+    background: none;
+    border: solid 3px rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
+    text-transform:bold;
+    font-size: 24px;
+}
+
+.contenedor-icono{
+    /* border: solid red 1px; */
+    width: 100%;
+    height: 15%;
+
+}
+.texto01{
+    /* border: solid red 1px; */
+    width: 90%;
+    height: 25%;
+}
+ .texto02{
+    /* border: solid red 1px; */
+    width: 90%;
+    height: auto;
+} 
+.texto3{
+    /* border: solid red 1px; */
+    width: 90%;
+    height:auto;
+    padding: 0px;
+    margin: 0px;
+    /* padding-bottom: 10px; */
+}
+
+.titulo-pagina{
+    color: white;
+}
+
+.subtitulo{
+    font-size: 13px;
+    color: white;
+    
+}
+.parrafo{
+    font-size: 40px;
+    color: white;
+
+}
+.informacion-final{
+    color: white;
+    font-size: 24px;
+
+}
+.manin-princiapal{
+    width: 100%;
+    height: 100vh;
+
+
+}
+.contenedor-informacion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.icono-nosotros{
+    width: 100%;
+    height: 35%;
+    border: solid palevioletred 0.1px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.icono-pata{
+
+    width: 15%;
+    height: auto;
+
+}
+.texto-elegirnos{
+    color: white;
+    font-size: 38px;
+   font-weight: bold;
+    background-color: null;
+
 
 }
