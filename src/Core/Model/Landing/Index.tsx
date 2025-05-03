@@ -96,7 +96,7 @@ const LandingPage = () => {
           
 
 
-
+{/* 
     <div
       id="carouselExampleControlsNoTouching"
       className="carousel slide"
@@ -143,7 +143,7 @@ const LandingPage = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> */}
 
 
 
