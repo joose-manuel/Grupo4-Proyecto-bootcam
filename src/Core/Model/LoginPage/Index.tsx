@@ -1,10 +1,16 @@
 import React, { useState } from "react";
-import "./StyleLogin.css"; // Descomenta esta línea para conectar el CSS
+import "./StyleLogin.css"; // Conecta el CSS
+import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
+  const navigate = useNavigate(); // Declara navigate
+
+  const Cliente = () => {
+    navigate('/cliente'); // Navega a la ruta de cliente
+  };
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,6 +32,9 @@ export default function LoginPage() {
 
     console.log("Datos guardados en localStorage:", userData);
     alert("Inicio de sesión exitoso. Datos guardados en localStorage.");
+
+    // Navegar a la página de cliente después del inicio de sesión
+    Cliente();
   };
 
   return (

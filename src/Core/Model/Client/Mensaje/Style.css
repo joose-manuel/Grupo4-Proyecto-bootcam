@@ -1,0 +1,40 @@
+.cuadro-historial {
+    width: 100%;
+    height: 400px;
+    background-color: #f5f8fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .historial-activo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e2e2e2;
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: fit-content;
+  }
+  
+  .boton-mas {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .flecha {
+    font-size: 18px;
+    color: #555;
+  }
+  

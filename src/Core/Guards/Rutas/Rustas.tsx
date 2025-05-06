@@ -7,6 +7,10 @@ import Admin from "../../Model/Admin/Index";
 import Clientes from "../../Model/Client/Index";
 import Landing from "../../Model/Landing/Index";
 import { UserProvider } from "../UserContex";
+import Mensaje from "../../Model/Client/Mensaje";
+import RegistroTratamiento from "../../Model/Client/RegistroTrataiento";
+import RegistroAnimal from "../../Model/Client/Registronimal";
+import RegistroCitas from "../../Model/Client/RegistroCitas";
 
 function Rustas() {
   return (
@@ -15,12 +19,25 @@ function Rustas() {
       <Routes>
         Ruta prinLoginl
         {/* Rutas de la aplicación */}
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/registro" element={<Registro />} />
         <Route path="/veterinario" element={<Veterinario />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/cliente" element={<Clientes />} />
         <Route path="/landing" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
+        
+        <Route path="/mensaje" element={<Mensaje />} />
+        <Route path="/regitroCitas" element={<RegistroCitas/>} />
+        <Route path="/regitroAnimal" element={<RegistroAnimal />} />
+        <Route path="/regitroTratamiento" element={<RegistroTratamiento />} />
+
+
+
+
+
+
+
         {/* <Route path="/contact" element={<Contact />} /> */}
 
         {/* Ruta para manejar páginas no encontradas */}
