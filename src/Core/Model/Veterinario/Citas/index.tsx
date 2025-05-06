@@ -1,17 +1,16 @@
+import './Stle.css'
 
-//  ENDIF interface Props {
-    
-//  }
-  
-//  interface State {
-    
-//  }
-  
-//  class  extends React.Component<Props, State> {
-//     state = { :  }
-//     render() { 
-//         return (  );
-//     }
-//  }
-  
-//  export default ; 
+const Citasveterinario = () => {
+
+    return (
+        <div>
+        <h1>Citas</h1>
+        {/* Aquí puedes agregar el contenido de la página de citas */}
+        </div>
+    );
+    }
+
+
+export default Citasveterinario;
+
+

@@ -21,7 +21,7 @@ const RegistroAnimal = () => {
         <h2 className="bienvenida">
           ¡Bienvenido,<br />Cliente!
         </h2>
-        <div className="icono-gato"></div>
+        <img src="src/assets/image 1 (3).png" alt="" />
       </div>
 
       <div className="caja">

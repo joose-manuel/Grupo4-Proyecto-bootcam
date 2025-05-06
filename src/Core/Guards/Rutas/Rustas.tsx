@@ -11,6 +11,10 @@ import Mensaje from "../../Model/Client/Mensaje";
 import RegistroTratamiento from "../../Model/Client/RegistroTrataiento";
 import RegistroAnimal from "../../Model/Client/Registronimal";
 import RegistroCitas from "../../Model/Client/RegistroCitas";
+import Citasveterinario from "../../Model/Veterinario/Citas";
+import Mensajeveterinario from "../../Model/Veterinario/Mensaje";
+import RegistroCitasveterinario from "../../Model/Veterinario/RegistroCitas";
+import RegistroTratamientoveterinario from "../../Model/Veterinario/Index";
 
 function Rustas() {
   return (
@@ -35,9 +39,11 @@ function Rustas() {
          {/* Clientes Fin */}
 
 
-        
-
-
+        {/* Veterinario Inicio */}
+        <Route path="/Citasvetrinario" element={<Citasveterinario />} />
+        <Route path="/Mensajevetrinario" element={<Mensajeveterinario />} />
+        <Route path="/RegistroCitasevetrinario" element={<RegistroCitasveterinario />} />
+        <Route path="/RegistroTratamientovetrinario" element={<RegistroTratamientoveterinario />} />
 
         {/* <Route path="/contact" element={<Contact />} /> */}
 

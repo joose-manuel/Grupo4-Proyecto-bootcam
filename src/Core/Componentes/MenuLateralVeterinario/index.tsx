@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Style.css";
 
-const Munu = () => {
+const MunuVeterinario = () => {
   const navigate = useNavigate(); // Hook para navegar entre rutas
 
   const handleRegistro = () => {
@@ -135,4 +135,4 @@ const Munu = () => {
   );
 };
 
-export default Munu;
+export default MunuVeterinario;

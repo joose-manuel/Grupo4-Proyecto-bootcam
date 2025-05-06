@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import "./StyleLogin.css"; // Conecta el CSS
 import { useNavigate } from 'react-router-dom'; // Importa useNavigate
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Importa los estilos de react-toastify
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
-  const navigate = useNavigate(); // Declara navigate
+  const navigate = useNavigate();
+
+  // Notificaciones personalizadas
+  const notifyInvalidEmail = () => toast.error("Por favor, introduce un correo electrónico válido.");
+  const notifyShortPassword = () => toast.error("La contraseña debe tener al menos 6 caracteres.");
+  const notifySuccess = () => toast.success("Inicio de sesión exitoso. Datos guardados en localStorage.");
 
   const Cliente = () => {
     navigate('/cliente'); // Navega a la ruta de cliente
@@ -17,12 +24,12 @@ export default function LoginPage() {
 
     // Validación básica
     if (!email.includes("@")) {
-      alert("Por favor, introduce un correo electrónico válido.");
+      notifyInvalidEmail(); // Notificación de correo inválido
       return;
     }
 
     if (password.length < 6) {
-      alert("La contraseña debe tener al menos 6 caracteres.");
+      notifyShortPassword(); // Notificación de contraseña corta
       return;
     }
 
@@ -31,7 +38,7 @@ export default function LoginPage() {
     localStorage.setItem("user", JSON.stringify(userData));
 
     console.log("Datos guardados en localStorage:", userData);
-    alert("Inicio de sesión exitoso. Datos guardados en localStorage.");
+    notifySuccess(); // Notificación de éxito
 
     // Navegar a la página de cliente después del inicio de sesión
     Cliente();
@@ -84,6 +91,7 @@ export default function LoginPage() {
           Iniciar sesión
         </button>
       </form>
+      <ToastContainer />
     </div>
   );
 }
