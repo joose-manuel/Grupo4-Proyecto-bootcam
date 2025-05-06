@@ -48,7 +48,70 @@ const LandingPage = () => {
         </div>
       </div>
       <img src="src/assets/Rectangle 7.jpg" className='fondo' alt="" />
+      <div className='carrusel'>
+
+        <div className='contenedorCarrusel'>
+        <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false" data-bs-ride="carousel">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img  
+             src="src/assets/361989685_160013533711158_2554708084698752322_n.jpg"
+             className="d-block"
+             style={{ width: '34.1%', height: 'auto', margin: '0 auto' }}
+           
+             alt="Primera imagen"
+
+           />
+        </div>
+        <div className="carousel-item">
+        <img  
+             src="src/assets/361989685_160013533711158_2554708084698752322_n.jpg"
+             className="d-block"
+             style={{ width: '34.1%', height: 'auto', margin: '0 auto' }}
+           
+             alt="Primera imagen"
+
+           />
+        </div>
+        <div className="carousel-item">
+        <img  
+             src="src/assets/361989685_160013533711158_2554708084698752322_n.jpg"
+             className="d-block"
+             style={{ width: '34.1%', height: 'auto', margin: '0 auto' }}
+           
+             alt="Primera imagen"
+
+           />
+        </div>
+      </div>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
     </div>
+
+
+
+        </div>
+
+
+
+
+
+      </div>
+     
+
+
+
+
+    </div>
+
+
+
   );
 };
 

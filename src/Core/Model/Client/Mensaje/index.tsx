@@ -25,8 +25,21 @@ const Mensaje = () => {
       <div className="historial-activo">
         <div className="boton-mas">+</div>
         <div className="texto">El historial esta activo</div>
-        <div className="flecha">➤</div>
+        {/* <div className="flecha">➤</div> */}
       </div>
+
+
+      <form action="">
+      <input  className="historial-activo" type="text" placeholder='El Historial esta activo' />
+      <button  className='Jose' >  
+        ➤
+      </button>
+
+      </form>
+
+      
+
+
     </div>
   </div>
 );
