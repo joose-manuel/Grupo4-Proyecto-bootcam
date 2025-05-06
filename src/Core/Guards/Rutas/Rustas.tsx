@@ -27,14 +27,15 @@ function Rustas() {
         <Route path="/landing" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         
+        {/* Clientes inicio */}
         <Route path="/mensaje" element={<Mensaje />} />
         <Route path="/regitroCitas" element={<RegistroCitas/>} />
         <Route path="/regitroAnimal" element={<RegistroAnimal />} />
         <Route path="/regitroTratamiento" element={<RegistroTratamiento />} />
+         {/* Clientes Fin */}
 
 
-
-
+        
 
 
 
