@@ -1,0 +1,26 @@
+
+
+
+.footer1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cuadro1-apartado{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+
+
+}
+
+.cuadro2-registro{
+    width: 50%;
+    background-color: rgba(4, 22, 42, 1);
+
+
+}

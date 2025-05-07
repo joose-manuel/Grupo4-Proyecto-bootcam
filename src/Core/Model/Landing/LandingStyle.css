@@ -247,3 +247,22 @@
     height: auto;
 
 }
+
+
+.ContenedorCarlos{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+
+
+
+
+}
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet
+
+
+}

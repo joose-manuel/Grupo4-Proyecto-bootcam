@@ -1,5 +1,10 @@
 import './LandingStyle.css';
 import { useNavigate } from 'react-router-dom'; // Importa useNavigate
+import Informacion from '../../Componentes/Informacion/index'; // Importa el componente Carlos
+import Footer from '../../Componentes/Footer/inde';
+
+
+
 
 const LandingPage = () => {
   const navigate = useNavigate(); // Hook para navegar entre rutas
@@ -47,9 +52,14 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <img src="src/assets/Rectangle 7.jpg" className='fondo' alt="" />
-      <div className='carrusel'>
 
+      <img src="src/assets/Rectangle 7.jpg" className='fondo' alt="" />
+      
+      <section className='ContenedorCarlos'>
+       <Informacion/>
+      </section>
+      
+      <div className='carrusel'>
         <div className='contenedorCarrusel'>
         <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false" data-bs-ride="carousel">
       <div className="carousel-inner">
@@ -96,14 +106,20 @@ const LandingPage = () => {
 
 
 
-        </div>
-
-
+      </div>
+    
 
 
 
       </div>
-     
+      
+
+        <section className='footer'>
+
+          <Footer/>
+
+
+        </section>
 
 
 

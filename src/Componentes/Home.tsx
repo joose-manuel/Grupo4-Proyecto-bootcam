@@ -43,9 +43,18 @@ export const Home = () => {
             <img
               src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
               alt={movie.title}
+
+             
               style={{ width: "200px", borderRadius: "10px" }}
             />
+
+            <div>
+            {movie.video}
+            </div>
           </li>
+          
+
+
         ))}
       </ul>
     </div>
