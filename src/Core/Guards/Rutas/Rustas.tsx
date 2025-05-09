@@ -14,7 +14,8 @@ import RegistroCitas from "../../Model/Client/RegistroCitas";
 import Citasveterinario from "../../Model/Veterinario/Citas";
 import Mensajeveterinario from "../../Model/Veterinario/Mensaje";
 import RegistroCitasveterinario from "../../Model/Veterinario/RegistroCitas";
-import RegistroTratamientoveterinario from "../../Model/Veterinario/Index";
+import RegistroTratamientoveterinario1 from "../../Model/Veterinario/Index";
+// import RegistroTratamientoveterinario from "../../Model/Veterinario/RegistroTratamiento";
 
 function Rustas() {
   return (
@@ -41,9 +42,9 @@ function Rustas() {
 
         {/* Veterinario Inicio */}
         <Route path="/Citasvetrinario" element={<Citasveterinario />} />
-        <Route path="/Mensajevetrinario" element={<Mensajeveterinario />} />
+        <Route path="/Mensajeveterinario" element={<Mensajeveterinario />} />
         <Route path="/RegistroCitasevetrinario" element={<RegistroCitasveterinario />} />
-        <Route path="/RegistroTratamientovetrinario" element={<RegistroTratamientoveterinario />} />
+        <Route path="/RegistroTratamientovetrinario" element={<RegistroTratamientoveterinario1 />} />
 
         {/* <Route path="/contact" element={<Contact />} /> */}
 

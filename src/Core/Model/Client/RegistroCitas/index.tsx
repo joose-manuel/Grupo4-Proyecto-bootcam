@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Menu from '../../../Componentes/MenuLateral'; // Asegúrate que el nombre del componente es 'Menu'
 import './Style.css';
 
-const RegistroCitas = () => {
+const RegistroCitasveterinario = () => {
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
 
   const toggleFormulario = () => {
@@ -50,8 +50,10 @@ const RegistroCitas = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    
   );
 };
 
-export default RegistroCitas;
+export default RegistroCitasveterinario ;

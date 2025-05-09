@@ -1,0 +1,23 @@
+.campoDe1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.informacionMascota{
+    width: 80%;
+    height: 100%;
+   
+
+
+}
+.btnChek{
+    border: none;
+    background-color: rgba(2, 141, 23, 0.62);
+    border-radius: 80px;
+}
+.btnChek2{
+    border: none;
+    background-color: rgba(169, 0, 37, 1);
+    border-radius: 80px;
+}

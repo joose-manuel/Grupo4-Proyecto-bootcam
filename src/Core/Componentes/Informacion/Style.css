@@ -37,20 +37,20 @@ p{
 }
 
 .box3{
-    background: #152636;
+    background: rgba(4, 22, 42, 1);
     padding: 1rem;
     border-radius: 0.75rem;
     display: grid;
     gap: 0.75rem;
 }
-.box3:hover {
+/* .box3:hover {
     transform: scale(1.15);
     transition: transform 0.3s ease;
 }
 .box4:hover {
     transform: scale(1.15);
     transition: transform 0.3s ease;
-}
+} */
 svg{
     width: 80px;
     height: 80px;
